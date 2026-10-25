@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		// SpringApplication.run(DemoApplication.class, args);
+
+		Candidate candidate1 = new Candidate("C1", "Nguyen","Nguyen@012",54564615);
+		candidate1.sendNotifiable("Chuc Mung Ban");
 	}
 
 }
